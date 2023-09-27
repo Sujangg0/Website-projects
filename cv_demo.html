@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Demo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .main-layout{
+            display: grid;
+        }
+        .home-intro {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)) ,url("./pexels-tima-miroshnichenko-5380642.jpg");
+            background-size: cover;
+            background-position: center;
+            filter: brightness(100%);
+        }
+        .nav-bar{
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-bar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+        } 
+        .nav-bar ul li a{
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            transition: 0.4s ease-out;
+        }
+        .nav-bar ul li a:hover{
+            color: rgb(131, 169, 75);
+        }
+        .introduction {
+            position:relative;
+            text-align: center;
+            margin: 0 auto;
+            top: 30vh;
+        }
+        .introduction img{
+            height:100px;
+            border-radius: 50%;
+            border: 5px solid rgb(111, 106, 255);
+        }
+        .job-to-hire-for{
+            height: 550px;
+            position: relative;
+            background-color: rgb(250, 247, 247);
+        }
+        .job-to-hire-for h1{
+            color: black;
+            padding-top: 80px;
+            text-align: center;
+        }
+        #further-contact{
+            color: black;
+            padding-top: 10px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .services{
+            display:flex;
+            justify-content: space-between;
+        }
+        #red-teaming{
+            background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url('redteaming-square.png');
+            background-size: cover;
+            transition: 1s ease-in-out;
+            box-shadow: 0 0 50px 15px #e64343;
+        }
+        #red-teaming:hover{
+            background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url('redteaming-square.png');
+        }
+        #blue-teaming{
+            background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url('SOCL1.svg');
+            background-size: cover;
+            transition: 1s ease-in-out;
+            box-shadow: 0 0 50px 15px #48abe0;
+        }
+        #blue-teaming:hover{
+            background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url('SOCL1.svg');
+        }
+        .job-skill{
+            margin: 0 auto;
+            width: 400px;
+            padding:30px;
+            height: 200px;
+            background-color: grey;
+            border: 2px solid black;
+            border-radius: 15px;;
+        }
+       .job-skill h2{
+            text-align: center;
+            padding:20px;
+        }
+        .footer{
+            background-color: rgb(27, 27, 27);
+            height: 300px;
+        }
+        .logos{
+            margin-left: 40%;
+            padding-top: 10px;
+        }
+        
+        .logos img{
+            display:inline-block ;
+            margin:10px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+        .footer h4{
+            text-align: center;
+            padding-top: 13vh;
+            color: rgb(222, 222, 222);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-layout">
+        <div class="home-intro">
+            <div class="nav-bar">
+                <h1>My Website</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="introduction">
+                <img src="pexels-alina-vilchenko-2698519.jpg" alt="cat-profile-picture">
+                <h1>Hello, I'm Hecker Cat</h1>
+                <h4>Cybersecurity enthusiast/Student</h4>
+            </div>
+        </div>
+
+        <div class="job-to-hire-for">
+            <div class="title"></div>
+            <h1>I'm Available For Hire</h1>
+            <p id="further-contact">I have a experience in both Red teamong and Blue Teaming. For further contact please visit the Contact page.</p>
+            <div class="services">
+                <div class="job-skill" id="red-teaming">
+                    <h2>Red Teaming</h2>
+                    <p>With extensive red teaming experience, I emulate adversaries, identifying vulnerabilities, and fortifying security. My skills span penetration testing, threat modeling, social engineering, exploit development, and a profound understanding of defense strategies. </p>
+                </div>
+                <div class="job-skill" id="blue-teaming">
+                    <h2>Blue Teaming</h2>
+                    <p>My portfolio highlights substantial experience in blue teaming. I specialize in enhancing cybersecurity by monitoring and defending against threats, leveraging my skills in incident response, network defense, and threat intelligence.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="logos">
+                <img src="logo1.png" alt="facebook-logo">
+                <img src="logo2.png" alt="new-twiter-logo">
+                <img src="logo3.png" alt="instagram-logo">
+                <img src="logo4.png" alt="linkdin-logo">
+            </div>
+            <h4>© 2020 My Website. All rights reserved | Designed by Sujan Gurung</h4>
+        </div>
+    </div>
+</body>
+</html>
