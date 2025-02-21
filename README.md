@@ -3,7 +3,8 @@ This repository contains the source code for the demo website, including HTML, C
 
 (NOTE: OwlCarousel2-2.3.4, jQuery-based carousel plugin, which is used for carousel/slider feature needs to be installed)
 
-Some Images of the demo website:
+
+# Some Images of the demo website:
 
 ![image](https://github.com/user-attachments/assets/513303c1-9073-4899-87c5-ada34220de0e)
 ![image](https://github.com/user-attachments/assets/9491dcf8-1738-4d41-95ad-2418881355e3)
@@ -14,6 +15,7 @@ Some Images of the demo website:
 
 
 Demo Database:
+
 ![image](https://github.com/user-attachments/assets/4cceb1bf-d6a4-4aba-b90c-ddd7da4485fb)
 
 ![image](https://github.com/user-attachments/assets/28645829-84bf-4fe1-88d8-9e17e0c27673)
