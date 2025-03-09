@@ -1,10 +1,19 @@
-# Website-projects
-This repository contains the source code for the demo website, including HTML, CSS, JavaScript, and PHP files for dynamic content.
+# 🌐 Website Projects  
 
-(NOTE: OwlCarousel2-2.3.4, jQuery-based carousel plugin, which is used for carousel/slider feature needs to be installed)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)  
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)  
+![JavaScript](https://img.shields.io/badge/JavaScript-Yellow?style=for-the-badge&logo=javascript)  
+![PHP](https://img.shields.io/badge/PHP-Server--Side-purple?style=for-the-badge&logo=php)  
 
+This repository contains the **source code for a demo website**, built using **HTML, CSS, JavaScript, and PHP** for dynamic content.  
 
-# Some Images of the demo website:
+⚠️ **Note:** The project uses **OwlCarousel2-2.3.4** (a jQuery-based carousel plugin). Ensure it is installed for the **slider feature** to work.  
+
+---
+
+## 📸 **Demo Screenshots**  
+
+### 🖥️ **Website UI**  
 
 ![image](https://github.com/user-attachments/assets/513303c1-9073-4899-87c5-ada34220de0e)
 ![image](https://github.com/user-attachments/assets/9491dcf8-1738-4d41-95ad-2418881355e3)
@@ -14,7 +23,9 @@ This repository contains the source code for the demo website, including HTML, C
 ![image](https://github.com/user-attachments/assets/4ced3d27-3848-463a-b50e-9794684fedb2)
 
 
-Demo Database:
+## 🗄️ **Database Schema**  
+
+### 📂 **Demo Database Structure**  
 
 ![image](https://github.com/user-attachments/assets/4cceb1bf-d6a4-4aba-b90c-ddd7da4485fb)
 
